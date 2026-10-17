@@ -1,0 +1,1716 @@
+{
+ "users": [
+  {
+   "id": 1,
+   "name": "Dr. Budi Santoso, M.Kom.",
+   "email": "dosen@kp.test",
+   "role": "dosen",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "name": "Dr. Rina Wulandari, M.T.",
+   "email": "dosen2@kp.test",
+   "role": "dosen",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 3,
+   "name": "Andi Pratama",
+   "email": "mahasiswa1@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 4,
+   "name": "Siti Rahmawati",
+   "email": "mahasiswa2@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 5,
+   "name": "Budi Hartono",
+   "email": "mahasiswa3@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 6,
+   "name": "Dewi Lestari",
+   "email": "mahasiswa4@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 7,
+   "name": "Rizky Fadillah",
+   "email": "mahasiswa5@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 8,
+   "name": "Fajar Nugroho",
+   "email": "mahasiswa6@kp.test",
+   "role": "mahasiswa",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 9,
+   "name": "Administrator Sistem",
+   "email": "admin@kp.test",
+   "role": "admin",
+   "is_active": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "student_profiles": [
+  {
+   "id": 1,
+   "user_id": 3,
+   "nim": "2211001",
+   "program_studi": "Teknik Informatika",
+   "no_hp": "081234560001",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "user_id": 4,
+   "nim": "2211002",
+   "program_studi": "Teknik Informatika",
+   "no_hp": "081234560002",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 3,
+   "user_id": 5,
+   "nim": "2211003",
+   "program_studi": "Sistem Informasi",
+   "no_hp": "081234560003",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 4,
+   "user_id": 6,
+   "nim": "2211004",
+   "program_studi": "Teknik Informatika",
+   "no_hp": "081234560004",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 5,
+   "user_id": 7,
+   "nim": "2211005",
+   "program_studi": "Sistem Informasi",
+   "no_hp": "081234560005",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 6,
+   "user_id": 8,
+   "nim": "2211006",
+   "program_studi": "Sistem Informasi",
+   "no_hp": "081234560006",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "lecturer_profiles": [
+  {
+   "id": 1,
+   "user_id": 1,
+   "nidn": "0715078801",
+   "program_studi": "Teknik Informatika",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "user_id": 2,
+   "nidn": "0722098302",
+   "program_studi": "Sistem Informasi",
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "internships": [
+  {
+   "id": 1,
+   "student_id": 3,
+   "nama_perusahaan": "PT Nusantara Digital",
+   "alamat": "Jl. Basuki Rahmat No. 10, Surabaya",
+   "pembimbing_lapangan": "Ibu Maya Kusuma",
+   "tanggal_mulai": "2026-08-17",
+   "tanggal_selesai": "2026-11-27",
+   "status": "berjalan",
+   "target_logbook": 75,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "student_id": 4,
+   "nama_perusahaan": "CV Kreasi Teknologi",
+   "alamat": "Jl. Ijen No. 25, Malang",
+   "pembimbing_lapangan": "Bapak Dedi Irawan",
+   "tanggal_mulai": "2026-08-17",
+   "tanggal_selesai": "2026-11-27",
+   "status": "berjalan",
+   "target_logbook": 75,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 3,
+   "student_id": 5,
+   "nama_perusahaan": "PT Sinergi Solusi Teknologi",
+   "alamat": "Jl. Soekarno Hatta No. 88, Malang",
+   "pembimbing_lapangan": "Ibu Linda Sari",
+   "tanggal_mulai": "2026-09-01",
+   "tanggal_selesai": "2026-12-11",
+   "status": "berjalan",
+   "target_logbook": 74,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 4,
+   "student_id": 6,
+   "nama_perusahaan": "Dinas Komunikasi dan Informatika",
+   "alamat": "Jl. Merdeka Timur No. 1, Malang",
+   "pembimbing_lapangan": "Bapak Hendra Wijaya",
+   "tanggal_mulai": "2026-06-01",
+   "tanggal_selesai": "2026-08-14",
+   "status": "selesai",
+   "target_logbook": 5,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 5,
+   "student_id": 7,
+   "nama_perusahaan": "PT Bumi Data Analitika",
+   "alamat": "Jl. Veteran No. 5, Malang",
+   "pembimbing_lapangan": "Ibu Ani Marlina",
+   "tanggal_mulai": "2026-11-02",
+   "tanggal_selesai": "2027-01-15",
+   "status": "belum_mulai",
+   "target_logbook": 55,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 6,
+   "student_id": 8,
+   "nama_perusahaan": "PT Cakrawala Software",
+   "alamat": "Jl. Diponegoro No. 3, Surabaya",
+   "pembimbing_lapangan": "Bapak Yoga Pratama",
+   "tanggal_mulai": "2026-09-14",
+   "tanggal_selesai": "2026-12-18",
+   "status": "berjalan",
+   "target_logbook": 70,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "supervisions": [
+  {
+   "id": 1,
+   "lecturer_id": 1,
+   "internship_id": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "lecturer_id": 1,
+   "internship_id": 2,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 3,
+   "lecturer_id": 1,
+   "internship_id": 3,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 4,
+   "lecturer_id": 1,
+   "internship_id": 4,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 5,
+   "lecturer_id": 1,
+   "internship_id": 5,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 6,
+   "lecturer_id": 2,
+   "internship_id": 6,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "logbooks": [
+  {
+   "id": 1,
+   "internship_id": 1,
+   "tanggal": "2026-08-17",
+   "judul": "Pengenalan lingkungan kerja dan tim",
+   "deskripsi": "Mengikuti orientasi perusahaan, mengenal struktur tim dan alur kerja proyek.",
+   "hasil": "Memahami alur kerja dan SOP tim pengembangan.",
+   "kendala": "Belum hafal istilah teknis internal.",
+   "rencana_tindak_lanjut": "Mempelajari dokumentasi proyek.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-08-18 19:30:00",
+   "created_at": "2026-08-17 17:00:00",
+   "updated_at": "2026-08-18 19:30:00"
+  },
+  {
+   "id": 2,
+   "internship_id": 1,
+   "tanggal": "2026-08-24",
+   "judul": "Instalasi development environment",
+   "deskripsi": "Memasang PHP, Composer, MySQL, dan Git serta mengkloning repositori proyek.",
+   "hasil": "Environment berjalan di laptop pribadi.",
+   "kendala": "Konfigurasi versi PHP berbeda dengan server.",
+   "rencana_tindak_lanjut": "Menyamakan versi dengan server.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-08-25 19:30:00",
+   "created_at": "2026-08-24 17:00:00",
+   "updated_at": "2026-08-25 19:30:00"
+  },
+  {
+   "id": 3,
+   "internship_id": 1,
+   "tanggal": "2026-08-31",
+   "judul": "Analisis struktur database",
+   "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+   "hasil": "Membuat ringkasan relasi antar tabel.",
+   "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+   "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+   "status": "disetujui",
+   "submission_number": 2,
+   "submitted_at": "2026-09-01 19:30:00",
+   "created_at": "2026-08-31 17:00:00",
+   "updated_at": "2026-09-01 19:30:00"
+  },
+  {
+   "id": 4,
+   "internship_id": 1,
+   "tanggal": "2026-09-07",
+   "judul": "Membuat modul autentikasi",
+   "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+   "hasil": "Modul login berfungsi dan lolos uji dasar.",
+   "kendala": "Kebingungan membedakan middleware dan policy.",
+   "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-09-08 19:30:00",
+   "created_at": "2026-09-07 17:00:00",
+   "updated_at": "2026-09-08 19:30:00"
+  },
+  {
+   "id": 5,
+   "internship_id": 1,
+   "tanggal": "2026-09-14",
+   "judul": "Pembuatan halaman dashboard",
+   "deskripsi": "Membuat tampilan dashboard dengan kartu statistik dan grafik.",
+   "hasil": "Dashboard menampilkan data dari database.",
+   "kendala": "Query lambat pada data besar.",
+   "rencana_tindak_lanjut": "Menambahkan index dan eager loading.",
+   "status": "menunggu",
+   "submission_number": 1,
+   "submitted_at": "2026-09-15 19:30:00",
+   "created_at": "2026-09-14 17:00:00",
+   "updated_at": "2026-09-15 19:30:00"
+  },
+  {
+   "id": 6,
+   "internship_id": 1,
+   "tanggal": "2026-09-21",
+   "judul": "Code review bersama mentor",
+   "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+   "hasil": "Seluruh catatan review selesai diperbaiki.",
+   "kendala": "Gaya penulisan kode belum konsisten.",
+   "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+   "status": "perlu_revisi",
+   "submission_number": 1,
+   "submitted_at": "2026-09-22 19:30:00",
+   "created_at": "2026-09-21 17:00:00",
+   "updated_at": "2026-09-22 19:30:00"
+  },
+  {
+   "id": 7,
+   "internship_id": 2,
+   "tanggal": "2026-08-17",
+   "judul": "Instalasi development environment",
+   "deskripsi": "Memasang PHP, Composer, MySQL, dan Git serta mengkloning repositori proyek.",
+   "hasil": "Environment berjalan di laptop pribadi.",
+   "kendala": "Konfigurasi versi PHP berbeda dengan server.",
+   "rencana_tindak_lanjut": "Menyamakan versi dengan server.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-08-18 19:30:00",
+   "created_at": "2026-08-17 17:00:00",
+   "updated_at": "2026-08-18 19:30:00"
+  },
+  {
+   "id": 8,
+   "internship_id": 2,
+   "tanggal": "2026-08-24",
+   "judul": "Analisis struktur database",
+   "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+   "hasil": "Membuat ringkasan relasi antar tabel.",
+   "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+   "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-08-25 19:30:00",
+   "created_at": "2026-08-24 17:00:00",
+   "updated_at": "2026-08-25 19:30:00"
+  },
+  {
+   "id": 9,
+   "internship_id": 2,
+   "tanggal": "2026-08-31",
+   "judul": "Membuat modul autentikasi",
+   "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+   "hasil": "Modul login berfungsi dan lolos uji dasar.",
+   "kendala": "Kebingungan membedakan middleware dan policy.",
+   "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+   "status": "menunggu",
+   "submission_number": 1,
+   "submitted_at": "2026-09-01 19:30:00",
+   "created_at": "2026-08-31 17:00:00",
+   "updated_at": "2026-09-01 19:30:00"
+  },
+  {
+   "id": 10,
+   "internship_id": 2,
+   "tanggal": "2026-09-07",
+   "judul": "Pembuatan halaman dashboard",
+   "deskripsi": "Membuat tampilan dashboard dengan kartu statistik dan grafik.",
+   "hasil": "Dashboard menampilkan data dari database.",
+   "kendala": "Query lambat pada data besar.",
+   "rencana_tindak_lanjut": "Menambahkan index dan eager loading.",
+   "status": "menunggu",
+   "submission_number": 1,
+   "submitted_at": "2026-09-08 19:30:00",
+   "created_at": "2026-09-07 17:00:00",
+   "updated_at": "2026-09-08 19:30:00"
+  },
+  {
+   "id": 11,
+   "internship_id": 2,
+   "tanggal": "2026-09-14",
+   "judul": "Code review bersama mentor",
+   "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+   "hasil": "Seluruh catatan review selesai diperbaiki.",
+   "kendala": "Gaya penulisan kode belum konsisten.",
+   "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+   "status": "draft",
+   "submission_number": 0,
+   "submitted_at": null,
+   "created_at": "2026-09-14 17:00:00",
+   "updated_at": "2026-09-14 17:00:00"
+  },
+  {
+   "id": 12,
+   "internship_id": 3,
+   "tanggal": "2026-09-01",
+   "judul": "Analisis struktur database",
+   "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+   "hasil": "Membuat ringkasan relasi antar tabel.",
+   "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+   "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-09-02 19:30:00",
+   "created_at": "2026-09-01 17:00:00",
+   "updated_at": "2026-09-02 19:30:00"
+  },
+  {
+   "id": 13,
+   "internship_id": 3,
+   "tanggal": "2026-09-08",
+   "judul": "Membuat modul autentikasi",
+   "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+   "hasil": "Modul login berfungsi dan lolos uji dasar.",
+   "kendala": "Kebingungan membedakan middleware dan policy.",
+   "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+   "status": "menunggu",
+   "submission_number": 2,
+   "submitted_at": "2026-09-09 19:30:00",
+   "created_at": "2026-09-08 17:00:00",
+   "updated_at": "2026-09-09 19:30:00"
+  },
+  {
+   "id": 14,
+   "internship_id": 3,
+   "tanggal": "2026-09-15",
+   "judul": "Pembuatan halaman dashboard",
+   "deskripsi": "Membuat tampilan dashboard dengan kartu statistik dan grafik.",
+   "hasil": "Dashboard menampilkan data dari database.",
+   "kendala": "Query lambat pada data besar.",
+   "rencana_tindak_lanjut": "Menambahkan index dan eager loading.",
+   "status": "menunggu",
+   "submission_number": 1,
+   "submitted_at": "2026-09-16 19:30:00",
+   "created_at": "2026-09-15 17:00:00",
+   "updated_at": "2026-09-16 19:30:00"
+  },
+  {
+   "id": 15,
+   "internship_id": 4,
+   "tanggal": "2026-06-01",
+   "judul": "Membuat modul autentikasi",
+   "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+   "hasil": "Modul login berfungsi dan lolos uji dasar.",
+   "kendala": "Kebingungan membedakan middleware dan policy.",
+   "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-06-02 19:30:00",
+   "created_at": "2026-06-01 17:00:00",
+   "updated_at": "2026-06-02 19:30:00"
+  },
+  {
+   "id": 16,
+   "internship_id": 4,
+   "tanggal": "2026-06-08",
+   "judul": "Pembuatan halaman dashboard",
+   "deskripsi": "Membuat tampilan dashboard dengan kartu statistik dan grafik.",
+   "hasil": "Dashboard menampilkan data dari database.",
+   "kendala": "Query lambat pada data besar.",
+   "rencana_tindak_lanjut": "Menambahkan index dan eager loading.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-06-09 19:30:00",
+   "created_at": "2026-06-08 17:00:00",
+   "updated_at": "2026-06-09 19:30:00"
+  },
+  {
+   "id": 17,
+   "internship_id": 4,
+   "tanggal": "2026-06-15",
+   "judul": "Code review bersama mentor",
+   "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+   "hasil": "Seluruh catatan review selesai diperbaiki.",
+   "kendala": "Gaya penulisan kode belum konsisten.",
+   "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-06-16 19:30:00",
+   "created_at": "2026-06-15 17:00:00",
+   "updated_at": "2026-06-16 19:30:00"
+  },
+  {
+   "id": 18,
+   "internship_id": 4,
+   "tanggal": "2026-06-22",
+   "judul": "Pengujian fitur laporan",
+   "deskripsi": "Menguji fitur ekspor laporan dan mencatat bug yang ditemukan.",
+   "hasil": "Dua bug berhasil dicatat dan diperbaiki.",
+   "kendala": "Data uji kurang lengkap.",
+   "rencana_tindak_lanjut": "Menyiapkan seeder data uji.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-06-23 19:30:00",
+   "created_at": "2026-06-22 17:00:00",
+   "updated_at": "2026-06-23 19:30:00"
+  },
+  {
+   "id": 19,
+   "internship_id": 4,
+   "tanggal": "2026-06-29",
+   "judul": "Dokumentasi sistem",
+   "deskripsi": "Menyusun dokumentasi penggunaan dan instalasi aplikasi.",
+   "hasil": "Dokumen panduan pengguna selesai.",
+   "kendala": "Waktu terbatas untuk mengambil tangkapan layar.",
+   "rencana_tindak_lanjut": "Melengkapi pada minggu berikutnya.",
+   "status": "disetujui",
+   "submission_number": 1,
+   "submitted_at": "2026-06-30 19:30:00",
+   "created_at": "2026-06-29 17:00:00",
+   "updated_at": "2026-06-30 19:30:00"
+  },
+  {
+   "id": 20,
+   "internship_id": 6,
+   "tanggal": "2026-09-14",
+   "judul": "Code review bersama mentor",
+   "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+   "hasil": "Seluruh catatan review selesai diperbaiki.",
+   "kendala": "Gaya penulisan kode belum konsisten.",
+   "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+   "status": "menunggu",
+   "submission_number": 1,
+   "submitted_at": "2026-09-15 19:30:00",
+   "created_at": "2026-09-14 17:00:00",
+   "updated_at": "2026-09-15 19:30:00"
+  }
+ ],
+ "logbook_attachments": [
+  {
+   "id": 1,
+   "logbook_id": 1,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-1.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-08-17 17:00:00",
+   "updated_at": "2026-08-17 17:00:00"
+  },
+  {
+   "id": 2,
+   "logbook_id": 3,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-3.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-08-31 17:00:00",
+   "updated_at": "2026-08-31 17:00:00"
+  },
+  {
+   "id": 3,
+   "logbook_id": 5,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-5.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-09-14 17:00:00",
+   "updated_at": "2026-09-14 17:00:00"
+  },
+  {
+   "id": 4,
+   "logbook_id": 7,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-1.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-08-17 17:00:00",
+   "updated_at": "2026-08-17 17:00:00"
+  },
+  {
+   "id": 5,
+   "logbook_id": 9,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-3.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-08-31 17:00:00",
+   "updated_at": "2026-08-31 17:00:00"
+  },
+  {
+   "id": 6,
+   "logbook_id": 12,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-1.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-09-01 17:00:00",
+   "updated_at": "2026-09-01 17:00:00"
+  },
+  {
+   "id": 7,
+   "logbook_id": 14,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-3.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-09-15 17:00:00",
+   "updated_at": "2026-09-15 17:00:00"
+  },
+  {
+   "id": 8,
+   "logbook_id": 15,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-1.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-06-01 17:00:00",
+   "updated_at": "2026-06-01 17:00:00"
+  },
+  {
+   "id": 9,
+   "logbook_id": 17,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-3.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-06-15 17:00:00",
+   "updated_at": "2026-06-15 17:00:00"
+  },
+  {
+   "id": 10,
+   "logbook_id": 19,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-5.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-06-29 17:00:00",
+   "updated_at": "2026-06-29 17:00:00"
+  },
+  {
+   "id": 11,
+   "logbook_id": 20,
+   "path": "seed/bukti-demo.png",
+   "nama_asli": "foto-kegiatan-1.png",
+   "mime": "image/png",
+   "ukuran": 12777,
+   "created_at": "2026-09-14 17:00:00",
+   "updated_at": "2026-09-14 17:00:00"
+  }
+ ],
+ "logbook_reviews": [
+  {
+   "id": 1,
+   "logbook_id": 1,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Pengenalan lingkungan kerja dan tim",
+    "deskripsi": "Mengikuti orientasi perusahaan, mengenal struktur tim dan alur kerja proyek.",
+    "hasil": "Memahami alur kerja dan SOP tim pengembangan.",
+    "kendala": "Belum hafal istilah teknis internal.",
+    "rencana_tindak_lanjut": "Mempelajari dokumentasi proyek.",
+    "tanggal": "2026-08-17",
+    "lampiran": []
+   },
+   "created_at": "2026-08-19 11:00:00"
+  },
+  {
+   "id": 2,
+   "logbook_id": 2,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Deskripsi jelas dan bukti memadai.",
+   "snapshot": {
+    "judul": "Instalasi development environment",
+    "deskripsi": "Memasang PHP, Composer, MySQL, dan Git serta mengkloning repositori proyek.",
+    "hasil": "Environment berjalan di laptop pribadi.",
+    "kendala": "Konfigurasi versi PHP berbeda dengan server.",
+    "rencana_tindak_lanjut": "Menyamakan versi dengan server.",
+    "tanggal": "2026-08-24",
+    "lampiran": []
+   },
+   "created_at": "2026-08-26 11:00:00"
+  },
+  {
+   "id": 3,
+   "logbook_id": 3,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "perlu_revisi",
+   "komentar": "Deskripsi kegiatan masih terlalu singkat. Jelaskan langkah teknis yang Anda kerjakan dan tambahkan bukti kegiatan.",
+   "snapshot": {
+    "judul": "Analisis struktur database",
+    "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+    "hasil": "Membuat ringkasan relasi antar tabel.",
+    "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+    "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+    "tanggal": "2026-08-31",
+    "lampiran": []
+   },
+   "created_at": "2026-09-02 10:00:00"
+  },
+  {
+   "id": 4,
+   "logbook_id": 3,
+   "reviewer_id": 1,
+   "submission_number": 2,
+   "keputusan": "disetujui",
+   "komentar": "Baik. Pertahankan konsistensi pengisian logbook.",
+   "snapshot": {
+    "judul": "Analisis struktur database",
+    "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+    "hasil": "Membuat ringkasan relasi antar tabel.",
+    "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+    "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+    "tanggal": "2026-08-31",
+    "lampiran": []
+   },
+   "created_at": "2026-09-03 11:00:00"
+  },
+  {
+   "id": 5,
+   "logbook_id": 4,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Membuat modul autentikasi",
+    "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+    "hasil": "Modul login berfungsi dan lolos uji dasar.",
+    "kendala": "Kebingungan membedakan middleware dan policy.",
+    "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+    "tanggal": "2026-09-07",
+    "lampiran": []
+   },
+   "created_at": "2026-09-09 11:00:00"
+  },
+  {
+   "id": 6,
+   "logbook_id": 6,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "perlu_revisi",
+   "komentar": "Hasil/capaian belum terukur. Mohon cantumkan output yang konkret.",
+   "snapshot": {
+    "judul": "Code review bersama mentor",
+    "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+    "hasil": "Seluruh catatan review selesai diperbaiki.",
+    "kendala": "Gaya penulisan kode belum konsisten.",
+    "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+    "tanggal": "2026-09-21",
+    "lampiran": []
+   },
+   "created_at": "2026-09-23 10:00:00"
+  },
+  {
+   "id": 7,
+   "logbook_id": 7,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Instalasi development environment",
+    "deskripsi": "Memasang PHP, Composer, MySQL, dan Git serta mengkloning repositori proyek.",
+    "hasil": "Environment berjalan di laptop pribadi.",
+    "kendala": "Konfigurasi versi PHP berbeda dengan server.",
+    "rencana_tindak_lanjut": "Menyamakan versi dengan server.",
+    "tanggal": "2026-08-17",
+    "lampiran": []
+   },
+   "created_at": "2026-08-19 11:00:00"
+  },
+  {
+   "id": 8,
+   "logbook_id": 8,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Deskripsi jelas dan bukti memadai.",
+   "snapshot": {
+    "judul": "Analisis struktur database",
+    "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+    "hasil": "Membuat ringkasan relasi antar tabel.",
+    "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+    "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+    "tanggal": "2026-08-24",
+    "lampiran": []
+   },
+   "created_at": "2026-08-26 11:00:00"
+  },
+  {
+   "id": 9,
+   "logbook_id": 12,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Analisis struktur database",
+    "deskripsi": "Mempelajari ERD dan relasi tabel pada sistem yang sedang berjalan.",
+    "hasil": "Membuat ringkasan relasi antar tabel.",
+    "kendala": "Beberapa tabel tidak memiliki dokumentasi.",
+    "rencana_tindak_lanjut": "Menanyakan ke pembimbing lapangan.",
+    "tanggal": "2026-09-01",
+    "lampiran": []
+   },
+   "created_at": "2026-09-03 11:00:00"
+  },
+  {
+   "id": 10,
+   "logbook_id": 13,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "perlu_revisi",
+   "komentar": "Hasil/capaian belum terukur. Mohon cantumkan output yang konkret.",
+   "snapshot": {
+    "judul": "Membuat modul autentikasi",
+    "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+    "hasil": "Modul login berfungsi dan lolos uji dasar.",
+    "kendala": "Kebingungan membedakan middleware dan policy.",
+    "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+    "tanggal": "2026-09-08",
+    "lampiran": []
+   },
+   "created_at": "2026-09-10 10:00:00"
+  },
+  {
+   "id": 11,
+   "logbook_id": 15,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Membuat modul autentikasi",
+    "deskripsi": "Mengimplementasikan form login, validasi input, dan pembatasan akses berdasarkan role.",
+    "hasil": "Modul login berfungsi dan lolos uji dasar.",
+    "kendala": "Kebingungan membedakan middleware dan policy.",
+    "rencana_tindak_lanjut": "Menambahkan pengujian otomatis.",
+    "tanggal": "2026-06-01",
+    "lampiran": []
+   },
+   "created_at": "2026-06-03 11:00:00"
+  },
+  {
+   "id": 12,
+   "logbook_id": 16,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Deskripsi jelas dan bukti memadai.",
+   "snapshot": {
+    "judul": "Pembuatan halaman dashboard",
+    "deskripsi": "Membuat tampilan dashboard dengan kartu statistik dan grafik.",
+    "hasil": "Dashboard menampilkan data dari database.",
+    "kendala": "Query lambat pada data besar.",
+    "rencana_tindak_lanjut": "Menambahkan index dan eager loading.",
+    "tanggal": "2026-06-08",
+    "lampiran": []
+   },
+   "created_at": "2026-06-10 11:00:00"
+  },
+  {
+   "id": 13,
+   "logbook_id": 17,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Baik. Pertahankan konsistensi pengisian logbook.",
+   "snapshot": {
+    "judul": "Code review bersama mentor",
+    "deskripsi": "Mengikuti sesi code review dan memperbaiki catatan dari mentor.",
+    "hasil": "Seluruh catatan review selesai diperbaiki.",
+    "kendala": "Gaya penulisan kode belum konsisten.",
+    "rencana_tindak_lanjut": "Menerapkan standar coding tim.",
+    "tanggal": "2026-06-15",
+    "lampiran": []
+   },
+   "created_at": "2026-06-17 11:00:00"
+  },
+  {
+   "id": 14,
+   "logbook_id": 18,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Sudah baik, lanjutkan.",
+   "snapshot": {
+    "judul": "Pengujian fitur laporan",
+    "deskripsi": "Menguji fitur ekspor laporan dan mencatat bug yang ditemukan.",
+    "hasil": "Dua bug berhasil dicatat dan diperbaiki.",
+    "kendala": "Data uji kurang lengkap.",
+    "rencana_tindak_lanjut": "Menyiapkan seeder data uji.",
+    "tanggal": "2026-06-22",
+    "lampiran": []
+   },
+   "created_at": "2026-06-24 11:00:00"
+  },
+  {
+   "id": 15,
+   "logbook_id": 19,
+   "reviewer_id": 1,
+   "submission_number": 1,
+   "keputusan": "disetujui",
+   "komentar": "Deskripsi jelas dan bukti memadai.",
+   "snapshot": {
+    "judul": "Dokumentasi sistem",
+    "deskripsi": "Menyusun dokumentasi penggunaan dan instalasi aplikasi.",
+    "hasil": "Dokumen panduan pengguna selesai.",
+    "kendala": "Waktu terbatas untuk mengambil tangkapan layar.",
+    "rencana_tindak_lanjut": "Melengkapi pada minggu berikutnya.",
+    "tanggal": "2026-06-29",
+    "lampiran": []
+   },
+   "created_at": "2026-07-01 11:00:00"
+  }
+ ],
+ "internship_reports": [
+  {
+   "id": 1,
+   "internship_id": 1,
+   "status": "belum_diunggah",
+   "versi_terbaru": 0,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 2,
+   "internship_id": 2,
+   "status": "menunggu",
+   "versi_terbaru": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 3,
+   "internship_id": 3,
+   "status": "perlu_revisi",
+   "versi_terbaru": 1,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 4,
+   "internship_id": 4,
+   "status": "disetujui",
+   "versi_terbaru": 2,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 5,
+   "internship_id": 5,
+   "status": "belum_diunggah",
+   "versi_terbaru": 0,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 6,
+   "internship_id": 6,
+   "status": "belum_diunggah",
+   "versi_terbaru": 0,
+   "created_at": "2026-08-01 09:00:00",
+   "updated_at": "2026-08-01 09:00:00"
+  }
+ ],
+ "report_versions": [
+  {
+   "id": 1,
+   "report_id": 2,
+   "versi": 1,
+   "path": "seed/laporan-demo.pdf",
+   "nama_asli": "Laporan-KP-2211002-v1.pdf",
+   "ukuran": 608,
+   "uploaded_at": "2026-10-03 14:00:00"
+  },
+  {
+   "id": 2,
+   "report_id": 3,
+   "versi": 1,
+   "path": "seed/laporan-demo.pdf",
+   "nama_asli": "Laporan-KP-2211003-v1.pdf",
+   "ukuran": 608,
+   "uploaded_at": "2026-10-03 14:00:00"
+  },
+  {
+   "id": 3,
+   "report_id": 4,
+   "versi": 1,
+   "path": "seed/laporan-demo.pdf",
+   "nama_asli": "Laporan-KP-2211004-v1.pdf",
+   "ukuran": 608,
+   "uploaded_at": "2026-08-04 14:00:00"
+  },
+  {
+   "id": 4,
+   "report_id": 4,
+   "versi": 2,
+   "path": "seed/laporan-demo.pdf",
+   "nama_asli": "Laporan-KP-2211004-v2.pdf",
+   "ukuran": 608,
+   "uploaded_at": "2026-08-10 14:00:00"
+  }
+ ],
+ "report_reviews": [
+  {
+   "id": 1,
+   "report_version_id": 2,
+   "reviewer_id": 1,
+   "keputusan": "perlu_revisi",
+   "komentar": "Bab pembahasan belum menjelaskan hasil secara rinci. Mohon dilengkapi.",
+   "created_at": "2026-10-05 10:00:00"
+  },
+  {
+   "id": 2,
+   "report_version_id": 3,
+   "reviewer_id": 1,
+   "keputusan": "perlu_revisi",
+   "komentar": "Bab pembahasan belum menjelaskan hasil secara rinci. Mohon dilengkapi.",
+   "created_at": "2026-08-06 10:00:00"
+  },
+  {
+   "id": 3,
+   "report_version_id": 4,
+   "reviewer_id": 1,
+   "keputusan": "disetujui",
+   "komentar": "Laporan sudah lengkap. Disetujui.",
+   "created_at": "2026-08-11 10:00:00"
+  }
+ ],
+ "activity_logs": [
+  {
+   "id": 1,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 15,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-06-02 19:30:00"
+  },
+  {
+   "id": 2,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 15,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-06-03 11:00:00"
+  },
+  {
+   "id": 3,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 16,
+   "metadata": {
+    "judul": "Pembuatan halaman dashboard",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-06-09 19:30:00"
+  },
+  {
+   "id": 4,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 16,
+   "metadata": {
+    "judul": "Pembuatan halaman dashboard",
+    "komentar": "Deskripsi jelas dan bukti memadai."
+   },
+   "created_at": "2026-06-10 11:00:00"
+  },
+  {
+   "id": 5,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 17,
+   "metadata": {
+    "judul": "Code review bersama mentor",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-06-16 19:30:00"
+  },
+  {
+   "id": 6,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 17,
+   "metadata": {
+    "judul": "Code review bersama mentor",
+    "komentar": "Baik. Pertahankan konsistensi pengisian logbook."
+   },
+   "created_at": "2026-06-17 11:00:00"
+  },
+  {
+   "id": 7,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 18,
+   "metadata": {
+    "judul": "Pengujian fitur laporan",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-06-23 19:30:00"
+  },
+  {
+   "id": 8,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 18,
+   "metadata": {
+    "judul": "Pengujian fitur laporan",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-06-24 11:00:00"
+  },
+  {
+   "id": 9,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 19,
+   "metadata": {
+    "judul": "Dokumentasi sistem",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-06-30 19:30:00"
+  },
+  {
+   "id": 10,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 19,
+   "metadata": {
+    "judul": "Dokumentasi sistem",
+    "komentar": "Deskripsi jelas dan bukti memadai."
+   },
+   "created_at": "2026-07-01 11:00:00"
+  },
+  {
+   "id": 11,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 1,
+   "metadata": {
+    "nama": "Andi Pratama"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 12,
+   "user_id": 1,
+   "internship_id": 2,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 2,
+   "metadata": {
+    "nama": "Siti Rahmawati"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 13,
+   "user_id": 1,
+   "internship_id": 3,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 3,
+   "metadata": {
+    "nama": "Budi Hartono"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 14,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 4,
+   "metadata": {
+    "nama": "Dewi Lestari"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 15,
+   "user_id": 1,
+   "internship_id": 5,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 5,
+   "metadata": {
+    "nama": "Rizky Fadillah"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 16,
+   "user_id": 2,
+   "internship_id": 6,
+   "aksi": "mahasiswa.ditambahkan",
+   "subject_type": "App\\Models\\Internship",
+   "subject_id": 6,
+   "metadata": {
+    "nama": "Fajar Nugroho"
+   },
+   "created_at": "2026-08-01 09:00:00"
+  },
+  {
+   "id": 17,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "laporan.diunggah",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 4,
+   "metadata": {
+    "versi": 1,
+    "file": "Laporan-KP-2211004-v1.pdf"
+   },
+   "created_at": "2026-08-04 14:00:00"
+  },
+  {
+   "id": 18,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "laporan.perlu_revisi",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 4,
+   "metadata": {
+    "versi": 1,
+    "komentar": "Bab pembahasan belum menjelaskan hasil secara rinci. Mohon dilengkapi."
+   },
+   "created_at": "2026-08-06 10:00:00"
+  },
+  {
+   "id": 19,
+   "user_id": 6,
+   "internship_id": 4,
+   "aksi": "laporan.diunggah",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 4,
+   "metadata": {
+    "versi": 2,
+    "file": "Laporan-KP-2211004-v2.pdf"
+   },
+   "created_at": "2026-08-10 14:00:00"
+  },
+  {
+   "id": 20,
+   "user_id": 1,
+   "internship_id": 4,
+   "aksi": "laporan.disetujui",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 4,
+   "metadata": {
+    "versi": 2,
+    "komentar": "Laporan sudah lengkap. Disetujui."
+   },
+   "created_at": "2026-08-11 10:00:00"
+  },
+  {
+   "id": 21,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 1,
+   "metadata": {
+    "judul": "Pengenalan lingkungan kerja dan tim",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-08-18 19:30:00"
+  },
+  {
+   "id": 22,
+   "user_id": 4,
+   "internship_id": 2,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 7,
+   "metadata": {
+    "judul": "Instalasi development environment",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-08-18 19:30:00"
+  },
+  {
+   "id": 23,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 1,
+   "metadata": {
+    "judul": "Pengenalan lingkungan kerja dan tim",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-08-19 11:00:00"
+  },
+  {
+   "id": 24,
+   "user_id": 1,
+   "internship_id": 2,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 7,
+   "metadata": {
+    "judul": "Instalasi development environment",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-08-19 11:00:00"
+  },
+  {
+   "id": 25,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 2,
+   "metadata": {
+    "judul": "Instalasi development environment",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-08-25 19:30:00"
+  },
+  {
+   "id": 26,
+   "user_id": 4,
+   "internship_id": 2,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 8,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-08-25 19:30:00"
+  },
+  {
+   "id": 27,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 2,
+   "metadata": {
+    "judul": "Instalasi development environment",
+    "komentar": "Deskripsi jelas dan bukti memadai."
+   },
+   "created_at": "2026-08-26 11:00:00"
+  },
+  {
+   "id": 28,
+   "user_id": 1,
+   "internship_id": 2,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 8,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "komentar": "Deskripsi jelas dan bukti memadai."
+   },
+   "created_at": "2026-08-26 11:00:00"
+  },
+  {
+   "id": 29,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 3,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-01 19:30:00"
+  },
+  {
+   "id": 30,
+   "user_id": 4,
+   "internship_id": 2,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 9,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-01 19:30:00"
+  },
+  {
+   "id": 31,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.perlu_revisi",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 3,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "komentar": "Deskripsi kegiatan masih terlalu singkat. Jelaskan langkah teknis yang Anda kerjakan dan tambahkan bukti kegiatan."
+   },
+   "created_at": "2026-09-02 10:00:00"
+  },
+  {
+   "id": 32,
+   "user_id": 5,
+   "internship_id": 3,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 12,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-02 19:30:00"
+  },
+  {
+   "id": 33,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 3,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "komentar": "Baik. Pertahankan konsistensi pengisian logbook."
+   },
+   "created_at": "2026-09-03 11:00:00"
+  },
+  {
+   "id": 34,
+   "user_id": 1,
+   "internship_id": 3,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 12,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-09-03 11:00:00"
+  },
+  {
+   "id": 35,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 3,
+   "metadata": {
+    "judul": "Analisis struktur database",
+    "pengiriman_ke": 2
+   },
+   "created_at": "2026-09-03 19:00:00"
+  },
+  {
+   "id": 36,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 4,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-08 19:30:00"
+  },
+  {
+   "id": 37,
+   "user_id": 4,
+   "internship_id": 2,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 10,
+   "metadata": {
+    "judul": "Pembuatan halaman dashboard",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-08 19:30:00"
+  },
+  {
+   "id": 38,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.disetujui",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 4,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "komentar": "Sudah baik, lanjutkan."
+   },
+   "created_at": "2026-09-09 11:00:00"
+  },
+  {
+   "id": 39,
+   "user_id": 5,
+   "internship_id": 3,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 13,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-09 19:30:00"
+  },
+  {
+   "id": 40,
+   "user_id": 1,
+   "internship_id": 3,
+   "aksi": "logbook.perlu_revisi",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 13,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "komentar": "Hasil/capaian belum terukur. Mohon cantumkan output yang konkret."
+   },
+   "created_at": "2026-09-10 10:00:00"
+  },
+  {
+   "id": 41,
+   "user_id": 5,
+   "internship_id": 3,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 13,
+   "metadata": {
+    "judul": "Membuat modul autentikasi",
+    "pengiriman_ke": 2
+   },
+   "created_at": "2026-09-11 19:00:00"
+  },
+  {
+   "id": 42,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 5,
+   "metadata": {
+    "judul": "Pembuatan halaman dashboard",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-15 19:30:00"
+  },
+  {
+   "id": 43,
+   "user_id": 8,
+   "internship_id": 6,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 20,
+   "metadata": {
+    "judul": "Code review bersama mentor",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-15 19:30:00"
+  },
+  {
+   "id": 44,
+   "user_id": 5,
+   "internship_id": 3,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 14,
+   "metadata": {
+    "judul": "Pembuatan halaman dashboard",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-16 19:30:00"
+  },
+  {
+   "id": 45,
+   "user_id": 3,
+   "internship_id": 1,
+   "aksi": "logbook.dikirim",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 6,
+   "metadata": {
+    "judul": "Code review bersama mentor",
+    "pengiriman_ke": 1
+   },
+   "created_at": "2026-09-22 19:30:00"
+  },
+  {
+   "id": 46,
+   "user_id": 1,
+   "internship_id": 1,
+   "aksi": "logbook.perlu_revisi",
+   "subject_type": "App\\Models\\Logbook",
+   "subject_id": 6,
+   "metadata": {
+    "judul": "Code review bersama mentor",
+    "komentar": "Hasil/capaian belum terukur. Mohon cantumkan output yang konkret."
+   },
+   "created_at": "2026-09-23 10:00:00"
+  },
+  {
+   "id": 47,
+   "user_id": 4,
+   "internship_id": 2,
+   "aksi": "laporan.diunggah",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 2,
+   "metadata": {
+    "versi": 1,
+    "file": "Laporan-KP-2211002-v1.pdf"
+   },
+   "created_at": "2026-10-03 14:00:00"
+  },
+  {
+   "id": 48,
+   "user_id": 5,
+   "internship_id": 3,
+   "aksi": "laporan.diunggah",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 3,
+   "metadata": {
+    "versi": 1,
+    "file": "Laporan-KP-2211003-v1.pdf"
+   },
+   "created_at": "2026-10-03 14:00:00"
+  },
+  {
+   "id": 49,
+   "user_id": 1,
+   "internship_id": 3,
+   "aksi": "laporan.perlu_revisi",
+   "subject_type": "App\\Models\\InternshipReport",
+   "subject_id": 3,
+   "metadata": {
+    "versi": 1,
+    "komentar": "Bab pembahasan belum menjelaskan hasil secara rinci. Mohon dilengkapi."
+   },
+   "created_at": "2026-10-05 10:00:00"
+  }
+ ]
+}
